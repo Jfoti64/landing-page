@@ -65,10 +65,11 @@ ul {
     font-size: 36px;
     font-weight:800;
     color: #1F2937;
+    margin-top: 0px;
 }
 
 .content-box-2 {
-    margin: 20px 120px;
+    margin: 100px 120px;
 }
 
 .images-and-txt-container {
@@ -95,9 +96,28 @@ ul {
     color: #1F2937;
 }
 
+.content-box-3 {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 100px 170px;
+}
 
+.content-box-3 p {
+    font-weight: light;
+    font-style: italic;
+    color: #1F2937;
+}
 
+.content-box-3 p, h5 {
+    margin: 0px;
+    font-size: 36px;
+}
 
+.content-box-3 h5 {
+    align-self: flex-end;
+    font-weight: 550;
+}
 
 
 
@@ -111,4 +131,8 @@ button {
     border-radius: 5px;
     border: 0px;
     font-weight: bold;
+}
+
+.flex-end {
+    align-self: flex-end;
 }
