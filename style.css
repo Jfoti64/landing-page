@@ -3,6 +3,7 @@ body {
     flex-direction: column;
     font-family: "Roboto", Times, serif;
     margin: 0px;
+    flex-shrink: 0;
 }
 
 .header {
@@ -48,6 +49,7 @@ ul {
 .left-container-1 {
     display: flex;
     flex-direction: column;
+    max-width: 50%;
 }
 
 .left-container-1 p {
@@ -56,9 +58,17 @@ ul {
     margin: 0px;
 }
 
+.left-container-2 {
+    display: flex;
+    max-width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
 .left-container-2 img{
     width: 600px;
     margin-left: 20px;
+    width: 100%;
 }
 
 .content-box-2 h4 {
