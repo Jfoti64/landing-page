@@ -2,6 +2,7 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto", Times, serif;
+    margin: 0px;
 }
 
 .header {
@@ -102,6 +103,7 @@ ul {
     flex-direction: column;
     background-color: #E5E7EB;
     padding: 100px 170px;
+    height: 225px;
 }
 
 .content-box-3 p {
@@ -144,6 +146,15 @@ ul {
 
 }
 
+.footer {
+    display: flex;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    font-size: 18px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+}
 
 button {
     background-color: #3882F6;
