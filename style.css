@@ -1,6 +1,7 @@
 body {
     display: flex;
     flex-direction: column;
+    font-family: "Roboto", Times, serif;
 }
 
 .header {
@@ -119,18 +120,41 @@ ul {
     font-weight: 550;
 }
 
+.content-box-4 {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: center;
+    padding: 50px 120px;
+    margin: 100px 200px;
+    border-radius: 10px;
+    font-size: 22px;
+    justify-content: space-between;
+    align-items: center;
+}
 
+.content-box-4 p {
+    color: #F9FAF8;
+    margin: 0px;
+    margin-right: 12px;
+
+}
+
+.content-box-4 button {
+    border: 2px solid #F9FAF8;
+
+}
 
 
 button {
     background-color: #3882F6;
     color: #E5E7EB;
-    width: 100px;
-    padding: 5px;
+    width: 110px;
+    padding: 8px;
     margin-top: 5px;
     border-radius: 5px;
     border: 0px;
     font-weight: bold;
+    font-size: 17px;
 }
 
 .flex-end {
